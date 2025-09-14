@@ -1,0 +1,24 @@
+{
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+	"[php]": {
+		"editor.defaultFormatter": "junstyle.php-cs-fixer",
+		"editor.formatOnSave": true
+	},
+	"phpcs.standard": "WordPress",
+	"phpcs.executablePath": "/Users/harishchouhan/.composer/vendor/bin/phpcs",
+	"phpcbf.executablePath": "/Users/harishchouhan/.composer/vendor/bin/phpcbf",
+	"phpcs.ignorePatterns": [
+		"*/vendor/*",
+		"*/node_modules/*",
+		"*/_backup/*"
+	],
+	"files.trimTrailingWhitespace": true,
+	"files.insertFinalNewline": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll": "explicit"
+	},
+	"phpSniffer.standard": "WordPress",
+	"phpSniffer.executablesFolder": "/Users/harishchouhan/.composer/vendor/bin/",
+	"phpSniffer.run": "onSave"
+}
