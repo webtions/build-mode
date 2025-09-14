@@ -1,6 +1,6 @@
 === Build Mode ===
 Contributors: hchouhan, themeist
-Donate link: https://themeist.com/plugins/wordpress/build-mode/
+Donate link: https://themeist.com/plugins/build-mode/
 Tags: maintenance, maintenance mode, maintenance page, coming soon, under construction
 Requires at least: 6.0
 Tested up to: 6.8
@@ -33,7 +33,6 @@ Instead of a generic message, you can select and display any page you've built â
 - Let search engines know your downtime is temporary
 
 [Plugin Page on Themeist](https://themeist.com/plugins/build-mode/)
-[Support Forum](https://wordpress.org/support/plugin/build-mode/)
 [GitHub Repo](https://github.com/webtions/build-mode)
 
 == Installation ==

@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       Build Mode
- * Plugin URI:        https://themeist.com/plugins/wordpress/build-mode/#utm_source=wp-plugin&utm_medium=plugins-page&utm_campaign=build-mode
+ * Plugin URI:        https://themeist.com/plugins/build-mode/#utm_source=wp-plugin&utm_medium=plugins-page&utm_campaign=build-mode
  * Description:       Maintenance Mode Without the Mess – Pick a page, and Build Mode takes care of the rest.
  * Version:           0.1.0
  * Requires at least: 6.0
