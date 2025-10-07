@@ -1,4 +1,4 @@
-=== Build Mode ===
+=== Build Mode – Maintenance Page ===
 Contributors: hchouhan, themeist
 Donate link: https://themeist.com/plugins/build-mode/
 Tags: maintenance, maintenance mode, maintenance page, coming soon, under construction
