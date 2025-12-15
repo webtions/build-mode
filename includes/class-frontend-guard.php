@@ -90,7 +90,7 @@ final class Themeist_Build_Mode_Frontend_Guard {
 		}
 
 		// Static assets bypass (rough check).
-		if ( preg_match( '#\.(?:css|js|map|jpe?g|png|gif|webp|svg|ico|woff2?|ttf|eot)$#i', $request_uri ) ) {
+		if ( preg_match( '#\.(?:css|js|map|jpe?g|png|gif|webp|svg|ico|woff2?|ttf|eot)(?:\?.*)?$#i', $request_uri ) ) {
 			return false;
 		}
 
