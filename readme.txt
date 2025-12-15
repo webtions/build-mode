@@ -4,7 +4,7 @@ Donate link: https://themeist.com/plugins/build-mode/
 Tags: maintenance mode, maintenance page, coming soon page, under construction, coming soon
 Requires at least: 6.0
 Tested up to: 6.9
-Stable tag: 0.1.0
+Stable tag: 0.2.0
 Requires PHP: 7.4
 License: GPL-3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.txt
@@ -82,6 +82,10 @@ Yes, Build Mode provides two filters.
 You can ask your question in the [WordPress.org Support Forum](https://wordpress.org/support/plugin/build-mode/)
 
 == Changelog ==
+
+= 0.2.0 – (16 Dec 2025) =
+* Fix: Allowed query strings in static asset URLs to prevent 404/MIME type errors.
+* Feature: Added "Edit Page" shortcut link in settings.
 
 = 0.1.0 – (8 Sep 2025) =
 * Initial release

@@ -79,6 +79,10 @@ See the license: https://www.gnu.org/licenses/gpl-3.0.txt
 <details>
 <summary><strong>View changelog</strong></summary>
 
+### 0.2.0 — 16 Dec 2025
+- Fix: Allowed query strings in static asset URLs to prevent 404/MIME type errors.
+- Feature: Added "Edit Page" shortcut link in settings.
+
 ### 0.1.0 — 8 Sep 2025
 - Initial release
 - Settings: enable toggle + maintenance page select

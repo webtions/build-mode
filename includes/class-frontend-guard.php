@@ -3,7 +3,7 @@
  * Handles the frontend maintenance page display
  *
  * @package BuildMode
- * @version 0.1.0
+ * @version 0.2.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
