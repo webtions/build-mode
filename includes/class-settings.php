@@ -182,6 +182,17 @@ final class Themeist_Build_Mode_Settings {
 		// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 		echo wp_kses( $dropdown, $allowed );
 
+		if ( $value > 0 ) {
+			$edit_url = get_edit_post_link( $value );
+			if ( $edit_url ) {
+				printf(
+					' <a href="%s" class="button" target="_blank">%s <span class="dashicons dashicons-external" style="line-height: 1.3;"></span></a>',
+					esc_url( $edit_url ),
+					esc_html__( 'Edit Page', 'build-mode' )
+				);
+			}
+		}
+
 		echo '<p class="description">' . esc_html__( 'Choose a page to display to visitors while Build Mode is enabled.', 'build-mode' ) . '</p>';
 	}
 
