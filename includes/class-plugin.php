@@ -66,10 +66,13 @@ final class Themeist_Build_Mode_Plugin {
 		require_once __DIR__ . '/class-settings.php';
 		require_once __DIR__ . '/class-frontend-guard.php';
 		require_once __DIR__ . '/class-adminbar-toggle.php';
+		require_once __DIR__ . '/class-patterns.php';
+		require_once __DIR__ . '/class-onboarding.php';
 
 		// Instantiate components.
 		new Themeist_Build_Mode_Settings( $this->option_key, $this->capability );
 		new Themeist_Build_Mode_Frontend_Guard( $this->option_key, $this->capability );
 		new Themeist_Build_Mode_Adminbar_Toggle( $this->option_key, $this->capability );
+		new Themeist_Build_Mode_Patterns();
 	}
 }

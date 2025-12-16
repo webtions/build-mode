@@ -21,15 +21,20 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-// Load the main plugin class
+// Load the main plugin class.
 require_once __DIR__ . '/includes/class-plugin.php';
 
-add_action( 'plugins_loaded', function() {
-	// Start the plugin
-	Themeist_Build_Mode_Plugin::instance();
-});
+add_action(
+	'plugins_loaded',
+	function () {
+		// Start the plugin.
+		Themeist_Build_Mode_Plugin::instance();
+	}
+);
 
-// Clean up when plugin is deleted
+/**
+ * Clean up when plugin is deleted.
+ */
 function themeist_build_mode_uninstall() {
 	delete_option( 'themeist_build_mode_settings' );
 }
