@@ -3,7 +3,7 @@
  * Adds toggle button to admin bar
  *
  * @package BuildMode
- * @version 0.1.0
+ * @version 1.0.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

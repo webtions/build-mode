@@ -4,7 +4,7 @@ Donate link: https://themeist.com/plugins/build-mode/
 Tags: maintenance mode, maintenance page, coming soon page, under construction, coming soon
 Requires at least: 6.0
 Tested up to: 6.9
-Stable tag: 0.2.0
+Stable tag: 1.0.0
 Requires PHP: 7.4
 License: GPL-3.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.txt
@@ -20,6 +20,7 @@ When Build Mode is active, only the content area of your chosen maintenance page
 ### Features
 - Enable or disable Build Mode from the **Admin Bar**
 - Choose any page as your custom **maintenance**, **coming‑soon** or **under‑construction** screen
+- **Five-Second Setup:** Click "Create Maintenance Page" to automatically generate a styled "Under Construction" page.
 - Logged‑in admins bypass maintenance mode automatically
 - Sends correct **503** and **Retry‑After** headers (SEO‑friendly)
 - Lightweight and secure, built with WordPress best practices
@@ -38,9 +39,9 @@ When Build Mode is active, only the content area of your chosen maintenance page
 
 1. Go to **Plugins → Add New** in your WordPress dashboard.
 2. Search for **Build Mode**, then click **Install Now** → **Activate**.
-3. Go to **Settings → Build Mode**, select your maintenance or coming‑soon page, and check the **Enable Build Mode** box.
-4. Click **Save Changes** to activate maintenance mode.
-5. You can also enable/disable Build Mode anytime from the **Admin Bar** menu.
+3. Go to **Settings → Build Mode**.
+4. Click **Create Maintenance Page** (or select an existing page).
+5. Check the **Enable Build Mode** box and click **Save**.
 
 == Frequently Asked Questions ==
 
@@ -82,6 +83,11 @@ Yes, Build Mode provides two filters.
 You can ask your question in the [WordPress.org Support Forum](https://wordpress.org/support/plugin/build-mode/)
 
 == Changelog ==
+
+= 1.0.0 – (16 Dec 2025) =
+* Feature: Added "Create Maintenance Page" button for one-click setup.
+* Feature: Added "Simple Maintenance Mode" block pattern.
+* Enhancement: Improved settings UI with quick actions.
 
 = 0.2.0 – (16 Dec 2025) =
 * Fix: Allowed query strings in static asset URLs to prevent 404/MIME type errors.

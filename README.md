@@ -79,6 +79,11 @@ See the license: https://www.gnu.org/licenses/gpl-3.0.txt
 <details>
 <summary><strong>View changelog</strong></summary>
 
+### 1.0.0 — 16 Dec 2025
+- Feature: Added "Create Maintenance Page" button for one-click setup.
+- Feature: Added "Simple Maintenance Mode" block pattern.
+- Enhancement: Improved settings UI with quick actions.
+
 ### 0.2.0 — 16 Dec 2025
 - Fix: Allowed query strings in static asset URLs to prevent 404/MIME type errors.
 - Feature: Added "Edit Page" shortcut link in settings.
