@@ -35,6 +35,15 @@ When Build Mode is active, only the content area of your chosen maintenance page
 [Plugin Page on Themeist](https://themeist.com/plugins/build-mode/)
 [GitHub Repo](https://github.com/webtions/build-mode)
 
+https://www.youtube.com/watch?v=w8S94TE6FV4
+
+== Screenshots ==
+
+1. Plugin Settings - One-click maintenance page setup.
+2. Block Editor - Customizing the maintenance page pattern.
+3. Admin Bar - Quickly toggling Build Mode on/off.
+4. Visitor View - What your users see (Maintenance/Coming Soon page).
+
 == Installation ==
 
 1. Go to **Plugins → Add New** in your WordPress dashboard.

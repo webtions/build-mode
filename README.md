@@ -1,7 +1,8 @@
-# Build Mode – Maintenance Page
+# Build Mode – Maintenance Mode & Coming Soon Page
 
-> Put your WordPress site into maintenance mode with one click.
-> Show **only the content** of a page you choose (no header/footer/navigation) while admins keep working.
+[![Build Mode Plugin](https://img.youtube.com/vi/w8S94TE6FV4/0.jpg)](https://www.youtube.com/watch?v=w8S94TE6FV4)
+
+**Build Mode** lets you put your WordPress site into **maintenance mode** or display a **coming‑soon page** / **under‑construction page** with one click.
 
 **Important:** Build Mode intentionally renders **only the main page content** to avoid exposing menus or links during maintenance. Theme styles/scripts still load so your content looks correct.
 
