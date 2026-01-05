@@ -1,45 +1,45 @@
-# Copyright (C) 2025 Themeist
+# Copyright (C) 2026 Harish Chouhan
 # This file is distributed under the GPL-3.0.
 msgid ""
 msgstr ""
-"Project-Id-Version: Build Mode 0.1.0\n"
+"Project-Id-Version: Build Mode 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/build-mode\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-09-08T10:34:02+00:00\n"
+"POT-Creation-Date: 2026-01-05T04:39:50+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: build-mode\n"
 
 #. Plugin Name of the plugin
 #: build-mode.php
-#: includes/class-settings.php:59
 #: includes/class-settings.php:60
-#: includes/class-settings.php:196
+#: includes/class-settings.php:61
+#: includes/class-settings.php:229
 msgid "Build Mode"
 msgstr ""
 
 #. Plugin URI of the plugin
 #: build-mode.php
-msgid "https://themeist.com/plugins/wordpress/build-mode/#utm_source=wp-plugin&utm_medium=plugins-page&utm_campaign=build-mode"
+msgid "https://themeist.com/plugins/build-mode/#utm_source=wp-plugin&utm_medium=plugins-page&utm_campaign=build-mode"
 msgstr ""
 
 #. Description of the plugin
 #: build-mode.php
-msgid "Show a selected page as a maintenance screen for visitors (503 + Retry-After) while logged-in administrators can browse and work normally."
+msgid "Maintenance Mode Without the Mess – Pick a page, and Build Mode takes care of the rest."
 msgstr ""
 
 #. Author of the plugin
 #: build-mode.php
-msgid "Themeist"
+msgid "Harish Chouhan"
 msgstr ""
 
 #. Author URI of the plugin
 #: build-mode.php
-msgid "https://themeist.com/"
+msgid "https://harishchouhan.com/"
 msgstr ""
 
 #: includes/class-adminbar-toggle.php:79
@@ -66,30 +66,63 @@ msgstr ""
 msgid "Maintenance page not found."
 msgstr ""
 
-#: includes/class-settings.php:77
+#: includes/class-onboarding.php:27
+msgid "Maintenance"
+msgstr ""
+
+#: includes/class-patterns.php:38
+msgid "Maintenance (Minimal)"
+msgstr ""
+
+#: includes/class-patterns.php:39
+msgctxt "Block pattern description"
+msgid "A simple full-screen maintenance message."
+msgstr ""
+
+#: includes/class-settings.php:78
 msgid "Maintenance Settings"
 msgstr ""
 
-#: includes/class-settings.php:79
+#: includes/class-settings.php:80
 msgid "While enabled, visitors see the selected page. Logged-in administrators can browse the site normally."
 msgstr ""
 
-#: includes/class-settings.php:86
+#: includes/class-settings.php:87
 msgid "Enable Build Mode"
 msgstr ""
 
-#: includes/class-settings.php:95
+#: includes/class-settings.php:96
 msgid "Maintenance Page"
 msgstr ""
 
-#: includes/class-settings.php:143
+#: includes/class-settings.php:144
 msgid "When enabled, visitors will see the selected maintenance page."
 msgstr ""
 
-#: includes/class-settings.php:163
+#: includes/class-settings.php:164
 msgid "-- Select --"
 msgstr ""
 
-#: includes/class-settings.php:185
+#: includes/class-settings.php:198
+msgid "Edit Page"
+msgstr ""
+
+#: includes/class-settings.php:212
+msgid "or"
+msgstr ""
+
+#: includes/class-settings.php:214
+msgid "Create Maintenance Page"
+msgstr ""
+
+#: includes/class-settings.php:218
 msgid "Choose a page to display to visitors while Build Mode is enabled."
+msgstr ""
+
+#: includes/class-settings.php:248
+msgid "Permission denied"
+msgstr ""
+
+#: includes/class-settings.php:255
+msgid "Onboarding class not found."
 msgstr ""
