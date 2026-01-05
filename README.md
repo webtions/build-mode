@@ -79,7 +79,7 @@ See the license: https://www.gnu.org/licenses/gpl-3.0.txt
 <details>
 <summary><strong>View changelog</strong></summary>
 
-### 1.0.0 — 16 Dec 2025
+### 1.0.0 — 5 Jan 2026
 - Feature: Added "Create Maintenance Page" button for one-click setup.
 - Feature: Added "Simple Maintenance Mode" block pattern.
 - Enhancement: Improved settings UI with quick actions.

@@ -84,7 +84,7 @@ You can ask your question in the [WordPress.org Support Forum](https://wordpress
 
 == Changelog ==
 
-= 1.0.0 – (16 Dec 2025) =
+= 1.0.0 – (5 Jan 2026) =
 * Feature: Added "Create Maintenance Page" button for one-click setup.
 * Feature: Added "Simple Maintenance Mode" block pattern.
 * Enhancement: Improved settings UI with quick actions.
