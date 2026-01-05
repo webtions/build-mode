@@ -33,11 +33,11 @@ class Themeist_Build_Mode_Patterns {
 		}
 
 		register_block_pattern(
-			'build-mode/simple-maintenance',
+			'build-mode/maintenance-minimal',
 			array(
-				'title'       => __( 'Simple Maintenance Mode', 'build-mode' ),
+				'title'       => __( 'Maintenance (Minimal)', 'build-mode' ),
 				'description' => _x( 'A simple full-screen maintenance message.', 'Block pattern description', 'build-mode' ),
-				'content'     => '<!-- wp:cover {"url":"","id":0,"overlayColor":"white","isUserOverlayColor":true,"minHeight":100,"minHeightUnit":"vh","metadata":{"categories":["featured"],"patternName":"build-mode/simple-maintenance","name":"Simple Maintenance Mode"},"align":"full","layout":{"type":"constrained"}} -->
+				'content'     => '<!-- wp:cover {"url":"","id":0,"overlayColor":"white","isUserOverlayColor":true,"minHeight":100,"minHeightUnit":"vh","metadata":{"categories":["featured"],"patternName":"build-mode/maintenance-minimal","name":"Maintenance (Minimal)"},"align":"full","layout":{"type":"constrained"}} -->
 <div class="wp-block-cover alignfull" style="min-height:100vh"><span aria-hidden="true" class="wp-block-cover__background has-white-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 <div class="wp-block-group"><!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"4rem"}},"textColor":"black"} -->
 <h2 class="wp-block-heading has-text-align-center has-black-color has-text-color" style="font-size:4rem">Site Under Construction</h2>
@@ -61,6 +61,7 @@ class Themeist_Build_Mode_Patterns {
 <!-- /wp:group --></div></div>
 <!-- /wp:cover -->',
 				'categories'  => array( 'featured' ),
+				'keywords'    => array( 'maintenance', 'coming soon', 'under construction', 'build mode' ),
 			)
 		);
 	}

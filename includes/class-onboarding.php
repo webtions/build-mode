@@ -28,7 +28,7 @@ class Themeist_Build_Mode_Onboarding {
 			'post_status'  => 'publish',
 			'post_type'    => 'page',
 			// Use the pattern slug we registered in class-patterns.php.
-			'post_content' => '<!-- wp:pattern {"slug":"build-mode/simple-maintenance"} /-->',
+			'post_content' => '<!-- wp:pattern {"slug":"build-mode/maintenance-minimal"} /-->',
 		);
 
 		return wp_insert_post( $page_data );
